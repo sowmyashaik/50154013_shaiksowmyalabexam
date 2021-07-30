@@ -1,0 +1,10 @@
+No. 210550154013
+Name : shaik sowmya
+
+//program-1 
+
+1. open the file "dictionary" using mq_open api
+2.setting the standard attributes like flags,max no. of messages,length of message.
+3.sending the string from p1 to p2 using standard mq api mq_send
+4.on process p2 it is receiving the string from p1 using api mq_receive and printing the string in p2 and lenghth of the string
+5. And then closing the mqueue in respective processess
